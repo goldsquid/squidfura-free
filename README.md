@@ -9,14 +9,16 @@ Because it's anonymous it's slow. Rountrips take about 10-20 seconds. The proxy 
 
 To run you need *docker* installed.
 
+In the following choose a custom password to encrypt the local state. It can not be changed without also deleting the data volume.
+
 ```
-git clone squidfura
-cd squidfura
+git clone https://github.com/goldsquid/squidfura-free.git
+cd squidfura-free
 echo "PASSWORD=mycreativepassword" > .env
-docker compuse up -d
+docker compose up -d
 ```
 
-You can test after a few seconds using curl.
+You can test after 10-20 seconds using curl.
 
 ```
 http://localhost:9296/ronin/mainnet \
