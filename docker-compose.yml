@@ -1,6 +1,6 @@
 services:
   client:
-    build: .
+    build: ./client
     ports:
       - 9296:9296
     volumes:
