@@ -21,7 +21,7 @@ docker compose up -d
 You can test after 10-20 seconds using curl.
 
 ```
-http://localhost:9296/ronin/mainnet \
+curl http://localhost:9296/ronin/mainnet \
   -H 'Content-Type: application/json' \
   -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
 ```
