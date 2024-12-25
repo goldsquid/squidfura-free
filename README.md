@@ -2,7 +2,7 @@
 
 This will spin up a proxy that gives you free anonymous access to RPC endpoints for popular blockchains at http://localhost:9296.
 
-Because it's anonymous it's slow. Rountrips take about 10-20 seconds. The proxy is build using cmix from https;//xx.network.
+Because it's anonymous it's slow. Rountrips take about 10-20 seconds. The proxy is build using cMixx from [https://xx.network/](https://xx.network).
 
 
 ### Intallation
