@@ -1,0 +1,13 @@
+services:
+  client:
+    build: .
+    ports:
+      - 9296:9296
+    volumes:
+      - "proxxy-data:/data"
+    environment:
+      PASSWORD: ${PASSWORD:-XGSy4TKdL6yfPOh5xl}
+      RELAY: "${RELAY:-<xxc(2)Nv+qU+diES5EmeF8fQHRDY/jPbPDWAWkm6hEYyGwfNwDkAZiB9kZo+Dl3W/bF0HbZsMHDNo5zudTvfHQqwsB1i+gZjfPUhBatAwgAxqx9uhCwPalzM1g4UMBpls+0w7slsjCu8U+oZqcqR2VEFL9n2wx1hZiQYcVYZ0xNYIR47W7KjBA1Mh4A/08FjR3pSfI04ZzNOwVKSCdEZNpFch5YQ7NjM4FLQJATp6VZgoaI8FX556RvWVgp7s812kqTVUcobuSdF1p6iIKul65SPd91M71c0odHsKkgjhupZHV1ms+jmRxOhUiUT2YTZc6Uc0VVEjV+Jnz8NM35o2UcsvEVu7FjSbY3w9J55E5GmP8kvjfngI/AVeHUdJzIs3TcCFkWp42cWsaCdqc15Ls2WuIdksoEQ4BPEuI7ykHOv02YHpNHmHfxSTeG2vseLhqWth3Ir4XU3z1OaVHCJFG8Gf8b9JgGQ8VfEDo3zIpj0Ubkw01kg7ZAXFHtGw9C/+AXJ511Z7DRDlihTOa6iZkP2Q01CTnGBkNc6qGgoHe+709XsJe971LrRsQy3ft5AAAAgA7ZJ/K3woTyy19PTb501dlNQ==xxc>}"
+volumes:
+  proxxy-data:
+
