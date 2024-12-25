@@ -1,0 +1,1 @@
+# squidfura-free
